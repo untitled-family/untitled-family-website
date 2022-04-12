@@ -21,8 +21,8 @@ const Window = ({ children, ...rest }) => {
         borderColor='black'
         alignItems='center'
       >
-        <Text fontSize='xs'>untitled</Text>
-        <SmallCloseIcon borderWidth={1} borderColor='black' ml='auto' />
+        <Text fontSize='xs'>▒ untitled ▒▒▒▒▒▒▒▒▒▒▒▒▒</Text>
+        <SmallCloseIcon borderWidth={1} borderColor='black' ml={1} />
       </Flex>
       <Box>
         {children}
