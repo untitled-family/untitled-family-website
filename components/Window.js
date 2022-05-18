@@ -24,7 +24,7 @@ const Window = ({ children, ...rest }) => {
         <Text fontSize='xs'>▒ untitled ▒▒▒▒▒▒▒▒▒▒▒▒▒</Text>
         <SmallCloseIcon borderWidth={1} borderColor='black' ml={1} />
       </Flex>
-      <Box>
+      <Box as='a' href='https://twitter.com/pixel_arts'>
         {children}
       </Box>
     </Box>
